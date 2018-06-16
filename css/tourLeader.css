@@ -1,0 +1,134 @@
+		html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, font, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+        }
+		.clearfix:before,
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+      font-size:0;
+		}
+		.clearfix { *zoom:1;}
+ @font-face {
+	  font-family:'iconfont';
+	  src: url('../font/iconfont.eot');
+	  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+	  url('../font/iconfont.woff') format('woff'),
+	  url('../font/iconfont.ttf') format('truetype'),
+	  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+	  font-family:"iconfont" !important;
+	  font-size:16px;font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -webkit-text-stroke-width: 0.2px;
+	  -moz-osx-font-smoothing: grayscale;
+		}
+		a{
+  -webkit-tap-highlight-color:transparent !important
+}
+
+		header{
+			width: 6.4rem;
+		}
+		.h-top{
+			width: 5.5rem;
+			background: #50bbdb;
+			padding: 0 .45rem;
+			display: flex;
+			justify-content: space-between;
+		}
+		.h-top>h3{
+			font-size: .27rem;
+			font-weight: normal;
+			color: #fff;
+			line-height: .88rem;
+		}
+		.h-top>a{
+			display: block;
+			text-decoration: none;
+			width: .43rem;
+			font-size: .34rem;
+			color: #fff;
+			line-height: .88rem;
+		}
+		.h-top>a i{
+			font-size: 0.3rem;
+		}
+		.h-top>a:last-child{
+			font-size: .2rem;
+		}
+		.repeat{
+			width: 6.4rem;
+			background: #ebebeb;
+			padding: .21rem 0;
+		}
+		.repeat p{
+			display: block;
+			float: left;
+			font-size: .22rem;
+			margin-left: .08rem;
+		}
+		.repeat>div{
+			float: left;
+			width: 2.66rem;
+			height: .12rem;
+			border-bottom: .01rem solid #ccc;
+		}
+		.repeat>div:last-child{
+			float: right;
+		}
+		.h-banner{
+			width: 5.38rem;
+			padding: .19rem .6rem .5rem .42rem;
+		}
+		.h-banner img{
+			width: 1.45rem;
+			float: left;
+		}
+		.h-banner h1{
+			float: left;
+			font-size: .28rem;
+			line-height: .58rem;
+			margin: .4rem 0 0 .5rem;
+			font-weight: normal;
+			border-bottom: .01rem dashed #ccc;
+		}
+		.main{
+			width: 6.4rem;
+		}
+		.main .main-top{
+			width: 5.34rem;
+			padding: 0 .56rem .78rem .5rem;
+		}
+		.main .main-top>p{
+			font-size: .18rem;
+			font-weight: lighter;
+		}
+		footer{
+			width: 6.4rem;
+			background: #ebebeb;
+			margin:.26rem 0 0 0;
+			text-align: center;
+		}
+		footer .jiazai{
+			margin-bottom: 0;
+		}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+	<link rel="stylesheet" href="css/OrderFilling.css">
+</head>
+<body>
+	<header>
+		<div class="h-top">
+			<a href="javascript:history.back()"><i class="iconfont">&#xe718;</i></a>
+			<h3>填写订单</h3>
+			<a href="javascript:void(0)"><i class="iconfont">&#xe664;</i></a>
+		</div>
+		<div class="h-banner">
+			<p>【爱自驾】<云南落地自驾行摄7天之旅>，各地飞往历史文化名城云南昆明集合。</p>
+		</div>
+	</header>
+	<div class="main">
+		<div class='line'>
+			<div>
+				<h3>线路信息</h3>
+			</div>
+			<div class="xiugai">
+				<p>自驾团名称：云南落地自驾行摄之旅</p>
+			</div>
+			<div class="xiugai">
+				<p>出游日期：2016-01-27</p><button>修改</button>
+			</div>
+			<div>
+				<p>出游人数：3成人，0儿童</p>
+			</div>
+			<div class='room'>
+				<p>房间：</p>
+				<div>
+					<a href="javascript:void(0)" class="mouis">-</a>
+					<input type="text" value="1">
+					<a href="javascript:void(0)" class="add">+</a>
+				</div>
+				<p>（2人间）</p>
+			</div>
+			<div class='splice'>
+				<p>是否同意拼房：</p>
+				<div>
+					<input type="radio" checked="cecked" name="sel" id="yesOne" style='width: .2rem;height: .2rem;'>
+				    <p>同意</p>
+				</div>
+				
+			</div>
+			<div class="splice">
+				<div>
+					<p></p>
+					<input type="radio" name="sel" id="noOne" style="width: .2rem;height:.2rem;">
+				     <p class="chajia">不同意拼房,愿意支付房差费用￥<span>3500</span></p>
+				</div>
+				
+			</div>
+		</div>
+		<div class='cost'>
+			<div>
+				<img src="images/triangle_3.png" alt="">
+				<h3>费用说明</h3>
+				<h3>退订规则</h3>
+			</div>
+			<div>
+				<p>费用包含</p>
+				<span>*+7x24小时优秀中/英双语自驾向导服务（国内出发，全程陪同）；</span>
+				<span>*+国内往返美国经济舱机票、燃油附加税、机票税；</span>
+				<span>*+包含好莱坞环球影城+17英里海岸门票；</span>
+				<span>*+美国当地钻酒店住宿；</span>
+				<span>*+美国当地钻酒店住宿1；</span>
+			</div>
+		</div>
+		<div class='linkman'>
+			<div class="baocuo">
+				<h3>联系人信息<span></span></h3>
+				
+			</div>
+			<div class='name'>
+				<p><span>*</span>姓名：</p>
+				<input type="text" placeholder="必填" id='username'>
+			</div>
+			<div class='sex'>
+				<p><span>*</span>性别：</p>
+				<div>
+					<input type="radio" checked="checked" name="sel2" id="" style="width: .2rem;height: .2rem;">
+					<p>男</p>
+					<input type="radio" name="sel2" id="" style="width: .2rem;height: .2rem;">
+					<p>女</p>
+				</div>
+			</div>
+			<div class='number'>
+				<p><span>*</span>手机号码：</p>
+				<input type="text" id="shouji">
+			</div>
+			<div class='email'>
+				<p><span>*</span>邮箱：</p>
+				<input type="text" placeholder="必填，接收合同信息" id="youxiang">
+			</div>
+		</div>
+		<div class='tourist'>
+			<div>
+				<h3>游客信息<span></span></h3>
+				<a href="TouristChoice.html">常用游客</a>
+			</div>
+			<div>
+				<p><span>*</span>姓名：</p>
+				<input type="text" placeholder="必填" id='username-a'>
+			</div>
+			<div class="zhengjian">
+				<p><span>*</span>证件类型：</p>
+				<button>身份证 ∨</button>
+				<ul>
+					<li>身份证</li>
+					<li>学生证</li>
+					<li>残疾证</li>
+				</ul>
+			</div>
+			<a href="javascript:void(0)">+</a>
+		</div>
+		<div class='insurance-a'>
+			<h3>保险<span></span></h3>
+			<div class="insurance">
+				<a href="javascript:void(0)"><img src="images/gou1_03.png" alt=""></a>
+				<p class="baoxian">平安爱自驾境外长线保险 经典型<br>2份</p>
+				<p>详情><br><span>￥177</span>/一份</p>
+			</div>
+			<div class="insurance">
+				<a href="javascript:void(0)"><img src="images/gou1_03.png" alt=""></a>
+				<p class="baoxian">平安爱自驾境外长线保险 经典型<br>2份</p>
+				<p>详情><br><span>￥177</span>/一份</p>
+			</div>
+		</div>
+
+		<div class='agreement'>
+			<input type="checkbox" checked="checked" name="" id="">
+			<p>已阅读并同意爱自驾旅游协议</p>
+		</div>
+	</div>
+	<footer>
+		<p>总费用  ￥<span>5920</span></p>
+		<a href="javascript:void(0)">提交订单</a>
+	</footer>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/OrderFilling.js"></script>
+</body>
+</html>

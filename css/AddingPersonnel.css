@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, font, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+        }
+		.clearfix:before,
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+      font-size:0;
+		}
+		.clearfix { *zoom:1;}
+		a{
+			-webkit-tap-highlight-color:transparent !important
+		}
+		header{
+			width: 6.4rem;
+		}
+		.h-top{
+			width: 5.5rem;
+			background: #50bbdb;
+			padding: 0 .45rem;
+			display: flex;
+			justify-content: space-between;
+		}
+		.h-top>h3{
+			font-size: .27rem;
+			font-weight: normal;
+			color: #fff;
+			line-height: .88rem;
+		}
+		.h-top>a{
+			display: block;
+			text-decoration: none;
+			width: .43rem;
+			font-size: .34rem;
+			color: #fff;
+			line-height: .88rem;
+		}
+		.h-top>a:last-child{
+			font-size: .2rem;
+		}
+		.h-banner{
+			width: 6.4rem;
+			position: relative;
+		}
+		.h-banner>div{
+			width: 6.03rem;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			border-bottom: .01rem solid #ccc;
+		}
+		.h-banner>div>p{
+			font-size: .22rem;
+			line-height: .52rem;
+		}
+		.h-banner>div>input{
+			width: 3.28rem;
+			border: 0;
+			outline: 0;
+			font-size: .22rem;
+		}
+		.h-banner>div:nth-child(2){
+			position: relative;
+		}
+
+		.h-banner>div>ul{
+			width: 3.28rem;
+			font-size: .2rem;
+			line-height: .5rem;
+			display: block;
+			position: absolute;
+			right: 0.02rem;
+			z-index: 5;
+			display: none;
+		}
+		.h-banner>div:nth-child(2) span{
+			font-size: .22rem;
+			line-height: .52rem;
+			width: 3rem;
+			padding-right: 0.3rem;
+		}	
+		.h-banner>div>ul>li{
+			width: 3.28rem;
+			list-style: none;
+			background: #fff;
+		}
+		.h-banner>div>ul>li:nth-child(2){
+			top: .5rem;
+		}
+		.h-banner>div>ul>li:last-child{
+			top: 1rem;
+		}
+		.h-banner>div>ul>.appear{
+			display: block;
+		}
+		.h-banner>div{
+			position: relative;
+		}
+		.h-banner>div:nth-child(2)>img:first-child{
+			position: absolute;
+			width: 3.27rem;
+			right: 0;
+			bottom: .13rem;
+			z-index: 4;
+		}
+		.h-banner>div:nth-child(2)>img:nth-child(2){
+			position: absolute;
+			width: .27rem;
+			right: 0;
+			bottom: .14rem;
+			z-index: 4;
+		}
+		.h-banner>div:last-child{
+			border: 0;
+		}
+		.min{
+			width: 6.4rem;
+			background: #ededed;
+			padding-top: 6.73rem;
+		}

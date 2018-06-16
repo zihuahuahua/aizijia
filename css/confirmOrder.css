@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+  @font-face {
+	  font-family:'iconfont';
+	  src: url('../font/iconfont.eot');
+	  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+	  url('../font/iconfont.woff') format('woff'),
+	  url('../font/iconfont.ttf') format('truetype'),
+	  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+	  font-family:"iconfont" !important;
+	  font-size:16px;font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -webkit-text-stroke-width: 0.2px;
+	  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  -webkit-tap-highlight-color:transparent !important
+}
+.top{
+	width: 6.4rem;
+	background-color: #50bbdb;
+}
+.top-up{
+	width: 5.9rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.top-up h1{
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	line-height: 0.88rem;
+	color: #fff;
+	
+}
+.top-up a{
+	width: 0.47rem;
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	height: 0.88rem;
+	text-decoration: none;
+}
+.top-up a i{
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	color: #fff;
+}
+header>p{
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	line-height: 0.44rem;
+}
+header{
+	padding-bottom: 0.05rem;
+}
+.main{
+	background-color: #ededed;
+	padding-top: 0.17rem;
+   padding-bottom: 0.2rem;
+}
+.main>div{
+	width: 6.04rem;
+	margin: 0 auto;
+	border-radius: 0.07rem;
+	background-color: #fff;
+	margin-bottom: 0.18rem;
+	padding-top: 0.14rem;
+}
+.main>div>h3{
+	display: flex;
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	line-height: 0.27rem;
+	border-left: 4px solid #50bbdb;
+	padding-left: 0.19rem;
+	justify-content: space-between;
+	margin-bottom: 0.1rem;
+	margin-left: 0.13rem;
+
+
+}
+.main>div>div{
+	border-top: 1px solid #dcdcdc;
+	padding:0.05rem 0 0.12rem 0;
+}
+.main>div:nth-child(1)>div>p{
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	line-height: 0.44rem;
+	text-indent: 0.36rem;
+	width: 5.17rem;
+	display: flex;
+	justify-content: space-between;
+}
+.main>div>div>p button{
+	width: 0.73rem;
+	line-height: 0.31rem;
+	height: 0.31rem;
+	padding: 0;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	color: #50bbdb;
+	background-color: #fff;
+}
+.main>div:nth-child(2) p{
+	font-size: 0.2rem;
+	width: 5.38rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	text-indent: 0;
+	line-height: 0.35rem;
+	padding-top: 0.05rem;
+}
+.main>div:nth-child(3) h3 a{
+	text-decoration: none;
+	padding-right: 0.28rem;
+	font-size: 0.2rem;
+	color: #50bbdb;
+}
+.main>div:nth-child(3)>div>p{
+	display: block;
+	width: 5.38rem;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	font-family: '[STHeitiSC]';
+	border-bottom: 1px solid #ccc;
+	line-height: 0.5rem;
+	text-decoration: none;
+	color: #333;
+}
+.main>div:nth-child(3)>div>p i{
+	font-size: 0.26rem;
+	color: #50bbdb; 
+}
+.main>div:nth-child(3)>a{
+	display: block;
+	width: 0.36rem;
+	margin: 0 auto;
+	line-height: 0.36rem;
+	height: 0.36rem;
+	position: relative;
+	padding-bottom: 0.08rem;
+}
+.main>div:nth-child(3)>a i{
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	position: absolute;
+	color: #d5d5d5;
+
+}
+.main>div:nth-child(4)>div{
+	width: 5.38rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.baoxian{
+	flex: 1;
+}
+.main>div:nth-child(4) div a{
+	display: block;
+	width: 0.29rem;
+	margin-right: 0.12rem;
+}
+.main>div:nth-child(4) div img{
+	display: block;
+	width: 0.29em;
+	height: 0.27rem;
+}
+.main>div:nth-child(4) div p{
+	font-size: 0.2rem;
+	font-family: '[STHeitiSC]';
+}
+.main>div:nth-child(4) div p span{
+	color: #f98d0d;
+}
+.main>div:nth-child(4) div p:nth-child(3){
+	text-align: right;
+}
+.main>p{
+	font-size: 0.2rem;
+	font-family: '[STHeitiSC]';
+	line-height: 0.32rem;
+	color: #333;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+footer{
+	width: 5.97rem;
+	background-color: #fff;
+	padding: 0.17rem 0.26rem 0.17rem 0.17rem;
+	display: flex;
+	justify-content: space-between;
+}
+footer p{
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	color: #f0851a;
+	line-height: 0.66rem;
+}
+footer a{
+	display: block;
+	width: 2.53rem;
+	line-height: 0.66rem;
+	background-color: #50bbdb;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.04rem;
+	font-size: 0.24rem;
+	font-family: '[STHeitiSC]';
+	color: #fff;
+}

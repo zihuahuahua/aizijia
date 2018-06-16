@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/calendar-pro.css">
+	<link rel="stylesheet" href="css/orderTime.css">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+</head>
+<body>
+	<div class="warp">
+		<header>
+			<a href="javascript:history.back()"><i class="iconfont">&#xe718;</i></a>
+			<h1>北京出发</h1>
+			<span></span>
+		</header>
+		<div class="calendar-box demo-box"></div>
+			
+		<footer>
+			<div class="footer-up">
+				<div>
+					<div class="up-top">
+						<span>成人</span>
+						<p>￥<span>5280</span></p>
+					</div>
+					<div class="up-down">
+						<button class="mouis">-</button>
+						<input type="text" value="1">
+						<button class="add">+</button>
+					</div>
+				</div>
+				<div>
+					<div class="up-top">
+						<span>儿童</span>
+						<p>￥<span>5280</span></p>
+					</div>
+					<div class="up-down">
+						<button class="mouis">-</button>
+						<input type="text" value="1">
+						<button class="add">+</button>
+					</div>
+				</div>
+			</div>
+			<div class="footer-mid">
+				<p><i class="iconfont">&#xe7d1;</i>日历价格为起价，订单最终价格以确定出游方案为准</p>
+			</div>
+			<div class="footer-main"></div>
+			<div class="footer-down">
+				<div>
+					<span>3成人</span>
+					<span>团期：2016-01-28</span>
+				</div>
+				<div>
+					<a href="OrderFilling.html">下一步</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/orderTime.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>		
+	<script src="js/calendar-pro.js"></script>
+	<script>
+		$('.calendar-box').calendar({
+			ele : '.demo-box', //依附
+			title : '选择预约时间',
+//			beginDate : '2017-10-07',
+//			endDate : '2017-12-04',
+			data : [
+				{date:'2017-07-13',data:'5890'},
+				{date:'2017-07-15',data:'5890'},
+				{date:'2017-07-18',data:'5890'},
+				{date:'2017-07-20',data:'5890'},
+				{date:'2017-07-21',data:'5890'},
+				{date:'2017-07-24',data:'5890'}
+//				
+			]
+		});
+		function getActive(){
+			var data = $('.calendar-box').calendarGetActive();
+		}
+	</script>
+</body>
+</html>

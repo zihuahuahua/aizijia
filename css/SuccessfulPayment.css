@@ -1,0 +1,149 @@
+  html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, font, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+        }
+		.clearfix:before,
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+      font-size:0;
+		}
+		.clearfix { *zoom:1;}
+    @font-face {
+    font-family:'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+  -webkit-tap-highlight-color:transparent !important
+}
+    header{
+      width: 6.4rem;
+    }
+    header .top{
+      display: flex;
+      justify-content: space-between;
+      width: 5.5rem;
+      background: #50bbdb;
+      padding:0 .45rem;
+    }
+    header .top>h3{
+      font-size: .27rem;
+      font-weight: normal;
+      color: #fff;
+      line-height: 0.88rem;
+    }
+    header .top a{
+      display: block;
+      text-decoration: none;
+      width: .6rem;
+      font-size: .2rem;
+      color: #fff;
+      line-height: 0.88rem;
+    }
+    header .top a i{
+      font-size: 0.3rem;
+      line-height: 0.68rem;
+    }
+    header .banner{
+      width: 1.75rem;
+      padding: .22rem 2.56rem .22rem 2.09rem;
+      border-bottom: .01rem solid #ccc;
+    }
+    header .banner img{
+      width: .34rem;
+      float: left;
+    }
+    header .banner>h3{
+      font-size: .24rem;
+      color: #50bbdb;
+      float: left;
+      margin-left: .42rem;
+    }
+    .main{
+      width: 6.4rem;
+    }
+    .main .main-top{
+      width: 5.45rem;
+      margin: 0 auto;
+      padding: .4rem 0;
+    }
+    .main .main-top>div{
+      display: flex;
+      justify-content: space-between;
+    }
+    .main .main-top>div>p{
+      font-size: .22rem;
+      line-height: .44rem;
+    }
+    .main .main-top>div>span{
+      line-height: .44rem;
+      font-size: .24rem;
+    }
+    .main .main-top>div:nth-child(2){
+      padding-bottom: .13rem;
+    }
+    .main .main-top>div:nth-child(3){
+      padding-top: .13rem;
+      border-top: .01rem dashed #ccc;
+    }
+    .main .main-top>div:nth-child(5){
+      padding-bottom: .09rem;
+    }
+    .main .main-top>div:last-child{
+      padding-top: .09rem;
+      border-top: .01rem dashed #ccc;
+    }
+    .main .main-bottom{
+      width: 5.43rem;
+      padding: .57rem .53rem 1.4rem .44rem;
+      background: #f6f6f6;
+      border-bottom: .01rem solid #ccc;
+    }
+    footer{
+      width: 5.43rem;
+      padding: .57rem .53rem .98rem .44rem;
+      background: #f6f6f6;
+    }
+    footer>p{
+      display: block;
+      font-size: .2rem;
+    }
+    footer>a{
+      display: block;
+      text-decoration: none;
+      font-size: .3rem;
+      padding: .19rem 1.6rem .19rem 1.74rem;
+      border: .01rem solid #ccc;
+      border-radius: .05rem;
+      margin-top: .96rem;
+      color: #43c4d9;
+    }

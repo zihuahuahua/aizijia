@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+	</script>
+	<link rel="stylesheet" href="css/TouristChoice.css">
+</head>
+<body>
+	<header>
+		<div class="h-top">
+			<a href="javascript:void(0)"><i class="iconfont">&#xe718;</i></a>
+			<h3>选择常用游客</h3>
+			<a href="OrderFilling.html">确定</a>
+		</div>
+		<div class="h-banner">
+			<p>已选择<span>0</span>/3旅客</p>
+		</div>
+	</header>
+	<div class="main">
+		<div>
+			<img src="images/pen.jpg" alt="">
+			<p>罗小小</p>
+			<a href="javascript:void(0)">
+				<img src="images/zhfu_03.jpg" alt=""  class='sel'>
+			</a>
+		</div>
+		<div>
+			<img src="images/pen.jpg" alt="">
+			<p>罗笑笑</p>
+			<a href="javascript:void(0)">
+				<img src="images/zhfu_03.jpg" alt=""  class='sel'>
+			</a>
+		</div>
+		<div>
+			<img src="images/pen.jpg" alt="">
+			<p>罗潇潇</p>
+			<a href="javascript:void(0)">
+				<img src="images/zhfu_03.jpg" alt=""  class='sel'>
+			</a>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<a href="AddingPersonnel.html"><i class="iconfont">&#xe504;</i></a>
+			<a href="AddingPersonnel.html">添加常用游客</a>
+		</div>
+	</footer>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	<script>
+		
+		$('.main>div').tap(function(){
+			var num1 = 0;
+			var num = 0;
+			var imgSrc = $(this).find('a>img').attr('src')
+			if(imgSrc === 'images/zhfu_03.jpg'){
+				$(this).find('a>img').attr('src','images/zhifu1_03.jpg')
+				for(var i=0;i<$('.main>div').length;i++){
+					if($('.main>div').eq(i).find('a>img').attr('src') === 'images/zhifu1_03.jpg'){
+						num1++
+					}
+					$('.h-banner>p span').text(num1)
+				}
+			}else{
+				$(this).find('a>img').attr('src','images/zhfu_03.jpg')
+				for(var i=0;i<$('.main>div').length;i++){
+					if($('.main>div').eq(i).find('a>img').attr('src') === 'images/zhifu1_03.jpg'){
+						num++
+					}
+					$('.h-banner>p span').text(num)
+				}
+			}
+		})
+	</script>
+</body>
+</html>

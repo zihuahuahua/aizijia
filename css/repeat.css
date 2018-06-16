@@ -1,0 +1,59 @@
+.content div{
+	width: 6.2rem;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.content div img{
+	width: 100%;
+	display: block;
+}
+.content div p{
+	position: absolute;
+	font-family: '[STHeitiSC]';
+	font-size: 0.2rem;
+	color: #fff;
+}
+.content div p:nth-child(2),.content div p:nth-child(3){
+	width: 4.37rem;
+	background:rgba(0,0,0,0.1);
+	padding-left: 0.22rem;
+}
+.content div p:nth-child(2){
+	top: 0;
+}
+.content div p:nth-child(3){
+	bottom: 0;
+}
+.content div p:nth-child(4){
+	right: 0;
+	bottom: -0.45rem;
+	width: .91rem;
+	line-height: .71rem;
+	height: 0.91rem;
+	font-size: .12rem;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background-color: #f0884d;
+	text-align: center;	
+}
+.content div p:nth-child(4) span{
+	font-size: 0.20rem;
+	font-weight: bold;	
+}
+.jiazai{
+	display: block;
+	width: 6.4rem;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.2rem;
+	color: #909090;
+	line-height: 0.59rem;
+	background-color: #f1f1f1;
+	margin-top: 0.1rem;
+	margin-bottom: 1rem;
+	background-image: url('../images/xia.jpg');
+	background-repeat: no-repeat;
+	background-position: 3.64rem 0.17rem;
+}
